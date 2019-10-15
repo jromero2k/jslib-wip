@@ -1,0 +1,68 @@
+{
+  "name": "gracias",
+  "version": "0.4.0",
+  "keywords": [],
+  "homepage": "https://github.com/jromero2k/jslib-wip",
+  "bugs": {
+    "url": "https://github.com/jromero2k/jslib-wip/issues/"
+  },
+  "repository": "https://github.com/jromero2k/jslib-wip",
+  "license": "AGPL-3.0-or-later",
+  "files": [
+    "index.js"
+  ],
+  "main": "legacy/index.js",
+  "module": "index.js",
+  "bin": {},
+  "peerDependencies": {
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "baobab": "^2.5.0",
+    "baobab-react": "^2.1.4",
+    "core-js": "",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "regenerator-runtime": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "preferGlobal": true,
+  "commonerConfig": {
+    "version": 4
+  },
+  "scripts": {
+    "flow-gen": "flow gen-flow-files index.js > .flow-typed/jrg.js.flow"
+  },
+  "_shasum": "",
+  "_resolved": "",
+  "_from": "",
+  "_npmVersion": "",
+  "_npmUser": {
+    "name": "",
+    "email": ""
+  },
+  "maintainers": [
+    ""
+  ],
+  "dist": {
+    "shasum": "",
+    "tarball": ""
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "jromero2k@gmail.com",
+  "description": "Just a useless JS library",
+  "dependencies": {}
+}
